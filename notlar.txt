@@ -1,0 +1,87 @@
+
+syntax kuralları
+
+1-{özellik:değer; özellik2:değer; özellik3:değer}
+
+2- okunabilirliği arttırmak için özellikler alt alta yazılır
+aynı zamanda özellikler farklı etiketlere tek seferde uygulanabilir
+
+p,h1,h3
+{
+    color:blue;
+    font-size:20px;
+}
+
+3-css  kodunu sadece belirli id değerine uygulamak istersek 
+#id-değeri şeklinde yazılır
+
+#login(id değeri login olana css leri uygular)
+{
+    css kodu1;
+    css kodu2;
+    css kodu3;
+}
+
+4-css kodunu birden fazla html de kullanmak istersek
+css kodlarına class ismi verip uygulayabiliriz
+
+.class_ismi
+{
+    css kodu1;
+    css kodu2;
+    css kodu3;
+}
+
+5- açıklama satırı
+/*   
+
+*/
+
+6- css kodları html tagının içerisinde,
+sayfanın head bölümünde(style özelliğini kullanarak),
+bir harici dosyaya yazılabilir.
+
+7-selected ifadesi başlangıçta seçili olarak default gelmesini sağlar
+disabled ise seçilemeyeceğini gösterir. o seçenek artık tıklanamaz, seçilemez
+
+8- <link rel="stylesheet" href="style.css" /> harici dosyayı dahil eder
+
+9-satırda,head tagı içinde ve harici dosya içinde olan cssler
+öncelik olarak satırdaki cssler uygulanır, o yoksa head tagı içinde , 
+o da yoksa harici dosya içindeki cssler uygulanır
+
+10- * : varsa tüm her şey seçilir ona css uygulanabilir
+p: paragraf tagına css uygulanabilir
+#ilk: idsi ilk olan şeylere uygulanabilir
+.deneme: class ismi deneme olan şeylere uygulanabilir
+h1.deneme: h1 etiketi içerisindeki deneme classına etiketlerine uygulanır
+p strong: p tagı içerisindeki tüm strong taglara uygulanabilir
+nav #buttons: nav tagındaki idsi buttons olanlara uygulanır
+h1,h2,h3 bu taglara uygulanabilir
+h1 u: h1 etiketi içerisindeki underline(altı çizili) şeylere uygulanabilir
+nav #buttons: navbar etiketi içerisindeki idsi buttons olan şeylere css uygulayabiliriz
+.gonder p: class ismi gonder olan elemanın içindeki p tagına uygulanabilir
+nav.menu li: nav tagındaki menu classındaki li tagı seçilir
+div>p: bir üst tagı div olan p etiketlerini seçer ve css uygulanabilir
+
+
+a:link -- henüz ziyaret edilmemiş linkleri seçer
+a:visited -- ziyaret edilmiş linkleri seçer
+a:focus -- klavye ile etkinleştirilmiş linkleri seçer
+a:hover -- üzerinde fare olan linkleri seçer
+input[type] -- input içinde type özelliğine sahip olanları seçer
+input[type="text"] -- input içinde type özelliği "text"e sahip olanları seçer
+
+--CSS KUTU MODELİ--
+
+
+
+
+
+
+
+
+
+
+
+

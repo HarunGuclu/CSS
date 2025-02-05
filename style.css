@@ -1,0 +1,48 @@
+
+* {
+            
+    background-color: chartreuse;
+    font-size: 30px;
+}
+
+
+.labels
+{
+    color: rgb(62, 29, 212);
+    background-color: rgb(44, 179, 64);
+    font-size: 20px;
+    font-style: italic;
+    
+}
+.inputs
+{
+    color: violet;
+    background-color: rgb(167, 228, 26);
+    font-size: 15px;
+    font-style: italic;
+
+}
+
+
+.buttons
+{
+    color: cadetblue;
+    background-color: yellow;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: inherit;
+    font-size: 20px;
+}
+
+
+.kayit_formu {
+    width: 300px;
+    padding: 20px;
+    border: 2px solid #4CAF50; /* Yeşil çerçeve */
+    border-radius: 10px; /* Köşeleri yuvarlatma */
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.8); /* Hafif gölge efekti */
+    font-family: Arial, sans-serif; /* Font ailesi */
+    background-color: #d4c9c9; /* Açık gri arka plan */
+    margin: auto;
+    text-align: left;
+}
+
