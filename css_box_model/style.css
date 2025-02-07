@@ -1,0 +1,128 @@
+#ruby
+ {
+    color: blue;
+    text-align: center;
+    font-size: 25px;
+ }
+ #python
+ {
+    font-size: 30px;
+    padding: 25px;
+ }
+ #java
+ {
+    color: rgb(165, 240, 13);
+    background-color:blueviolet;
+    padding-left: 60px;
+    margin-left: 20px;
+    font-size: 25px;
+
+
+ }
+
+#flutter
+{
+    color:rgb(13, 194, 194);
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding-left: 100px;
+    padding-bottom: 20px;
+    font-size: 25px;
+
+}
+
+#csharp
+{
+    color: rgb(6, 247, 247);
+    background-color: black;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    padding-top: 3%;
+    margin-left: 30px;
+    font-style: italic;
+    font-size: 25px;
+
+
+}
+
+#educations
+{
+ border-style: inset;
+ margin-left: 30px;  
+ margin-top: 100px;
+ margin-right: 50px;
+ margin-bottom: 10px;
+ background-color: rgb(196, 33, 87);
+ 
+}
+
+h1
+{
+    background-color: burlywood;
+    color: cornflowerblue;
+
+    border-style:dotted;
+    border-width: 10px;
+    
+    border-radius:100px;
+    /* border-top-left-radius: 20px ;
+    border-top-right-radius: 0px ;
+    border-bottom-left-radius:60px ;
+    border-bottom-right-radius:90px ; */
+    border-top-color: black;
+    border-left-color: yellow;
+    border-right-color: yellowgreen;
+    border-bottom-color: violet;
+
+    width: 400px;
+    height: 200px;
+    padding-left: 30px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+
+    font-size: 70px;
+
+
+
+    margin-left: 50px;
+    margin-right: 70px;
+    margin-top:70px;
+    margin-bottom: 10px;
+    /* border-style:solid */
+    /* border-style:groove */
+    /* border-style:dashed */
+    /* border-style:double */
+    /* border-style:hidden */
+    /* border-style:inherit */
+    /* border-style:initial */
+    /* border-style:inset */
+    /* border-style:outset */
+    /* border-style:unset */
+    /* border-style:ridge */
+    
+   
+}
+
+.gorsel
+{
+    width: 400px;
+    height: 200px;
+    margin: 20px;
+    padding: 20px;
+    background-image: url(hulk.jpeg);
+    background-size: auto;
+    /* background-position:top left; */
+    /* background-repeat: repeat; */
+    /* background-attachment: scroll; */
+    background-color: yellow;
+    border-color: rgb(55, 132, 132);
+    border-style: dotted;
+    border-width: 5px;
+    border-radius: 5px 10px 15px 20px;
+}
+
+
+
+
+

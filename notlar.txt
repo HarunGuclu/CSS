@@ -74,13 +74,50 @@ input[type="text"] -- input içinde type özelliği "text"e sahip olanları seç
 
 --CSS KUTU MODELİ--
 
+border style:bir kutuya alır ve kenar çizgisi tipi(noktalı ,düz... )
+--(border)left-right-top-bottom özellikleri de özel olarak px ayarlanabilir--
+
+border-width: 10px  kutunun etrafındaki çizgilerin(noktaların) kalınlığı
+border-radius: 40px; kutunun her tarafından kenarlıklara yumuşaklık verir
+border-top-left-radius: 20px ;  sol üstten yumuşaklık verir
+border-top-right-radius: 30px ;  sağ üstten yumuşaklık verir
+border-bottom-left-radius:60px ; sol alttan yumuşaklık verir
+border-bottom-right-radius:90px ; sağ alttan yumuşaklık verir
+---kenarlıkları renklendirmel için kullanırız
+border-top-color: black;
+border-left-color: yellow;
+border-right-color: yellowgreen;
+border-bottom-color: violet;
 
 
+width:20px  kutunun genişliğini ayarlar
+height:20 px  kutunun yüksekliğini ayarlar
+padding-left:20px  kutu ile içerik arasında soldan 20px
+padding-right:20px  kutu ile içerik arasında sağdan 20px
+padding-top:20px  kutu ile içerik arasında üstten 20px
+padding-bottom:20px  kutu ile içerik arasında alttan 20px
+
+margin-left:20px  kenarlar ile kutu arasındaki soldan 20px
+margin-right:20px  kenarlar ile kutu arasındaki sağdan 20px
+margin-top:20px  kenarlar ile kutu arasındaki üstten 20px
+margin-bottom:20px  kenarlar ile kutu arasındaki alttan 20px
 
 
+padding ve margin yazarken daha kısa yazmak için
+padding: 10px      20px    20px     10px
+        yukarıdan  sağdan  alttan  soldan
+margin: 10px       20px    20px     10px
 
 
-
+background-color: arkaplan rengi
+background-image url(): verilen url deki resmi arkaplan yapar
+background-size: 200px ;  resmin boyutu ayarlanır
+background-repeat: repeat; resmin tekrarlanması ayarlanır. 
+istenilirse sadece x veya y eksenlerinde tekrarlanır
+background-position:top left; resmi sağ-sol-merkez(center)-sol alt...
+gibi yerlerde hizalama yapmak için kullanılır
+background-attachment: scroll; resmin sabit mi kalacağını 
+yoksa sayfa  sayfa kaydırılınca o da kaydırılsın mı onu ayarlamak için kullanılır
 
 
 
