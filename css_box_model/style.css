@@ -124,5 +124,27 @@ h1
 
 
 
+.bolgeler
+ {
+    color: rgb(203, 118, 14);
+    font-size: 15px;
+    border-color: blue;
+    display: inline-table;
+    
+ }
+ .icanadolu
+ {
+    color: yellowgreen;
+ }
+ .doguanadolu
+ {
+    color: violet;
+ }
 
-
+ .bolgeler #sehirler /*class ismi bolgeler idsi sehirler olan*/
+ {
+    font-size: 30px;
+    font-weight: 600;
+    color:blueviolet;
+    text-align: center;
+ }

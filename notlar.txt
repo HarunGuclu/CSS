@@ -120,5 +120,62 @@ background-attachment: scroll; resmin sabit mi kalacağını
 yoksa sayfa  sayfa kaydırılınca o da kaydırılsın mı onu ayarlamak için kullanılır
 
 
+h1-6, p, li, form, table, div gibi komutlar blocklar gibi davranır.
+Yani bulundukları yerdeki tüm satırı kaplarlar.
+
+a, span, em, b, i gibi komutlar ise inline davranışa sahiptir.
+bulundukları yeri işgal ederler.
+
+bazı durumlarda inline komutlar block gibi, block komutlar ise inline gibi
+davranmasını isteyebiliriz. display kelimesini kullanarak ayarlanabilir
+örneğin
+table
+{
+    display:inline //inline gibi davranır
+}
+li
+{
+    display:inline; //inline gibi davranır
+
+}
+a
+{
+    display:block //block gibi davranır
+}
+
+tr:table row-satır   td: satırdaki kolon   th:başlık kolonu(kolon ismi de denileilir)
+
+--GENEL SAYFA DÜZENİ--
+header kısmına logo ve reklam gelecek
+nav kısmına ana menü gibi hızlı yönlendirme işlemler olacak
+article kısmında içerik kısmı olacak 
+footer kısmında ise iletişim, kişi bilgileri vs küçük bilgiler olacak
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 

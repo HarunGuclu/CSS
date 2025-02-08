@@ -1,0 +1,91 @@
+#genel_sayfa
+{
+    font-size: 15px;
+}
+.layout
+{
+    background-color: violet;
+    color: rgb(70, 4, 251);
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 50px;
+}
+#personal
+{
+    display: inline;
+    height: 50px;
+    width: 50px;
+    background-color: rgb(45, 162, 77);
+    border-radius: 50%;
+    margin: 10px;
+    padding: 10px;
+    
+
+
+}
+
+#navbar
+{
+    
+    border-radius: 20px;
+    font-size: 17px;
+    display: flex;
+    justify-content: space-around; /* Etiketleri eşit aralıklarla hizalar */
+    align-items: center; /* Dikey hizalama */
+    background-color:azure; /* Menü arka plan rengi */
+    color: white; /* Yazı rengi */
+    padding: 15px;
+    width: 100%; /* Sayfanın tamamını kaplar */
+    box-sizing: border-box;    
+}
+article
+{
+    border-radius: 10px;
+    font-style: normal;
+    font-size: 30px;
+    color: rgb(189, 229, 10);
+    background-color: rgb(145, 54, 54);
+}
+
+.card {
+    font-style: italic;
+    background-color: white;
+    padding: 15px;
+    border-radius: 50px;
+    text-align: left;
+    
+}
+
+.personal_card
+{
+    display: flex;
+    align-items: center; /* Dikey hizalama */
+    gap: 10px; /* Resim ile kart arasındaki boşluk */
+}
+
+footer li
+{
+    font-size: 30px;
+}
+footer
+{
+    color: cornflowerblue;
+    background-color: wheat;
+    border-radius: 20px;
+    font-size: 20px;
+}
+footer p
+{
+    font-size: 40px;
+    color: red;
+}
+.nature
+{
+    background-image: url(nature.jpg); 
+    background-repeat: no-repeat; /* Tekrar etmesini engelle */
+    background-size: cover; /* Ekrana tam oturmasını sağla */
+    background-position: center; /* Ortada hizala */
+    
+
+}
