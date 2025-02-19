@@ -1,9 +1,8 @@
-#genel_sayfa
-{
+#genel_sayfa {
     font-size: 15px;
 }
-.karsilama
-{
+
+.karsilama {
     font-size: 100px;
     text-align: center;
     color: chocolate;
@@ -13,21 +12,27 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 750px; /* Sayfanın tamamını kaplaması için */
+    height: 750px;
+    /* Sayfanın tamamını kaplaması için */
     margin: 0;
-    
+
 }
-#anamenu
-{
-    background-image: url('technology.jpg'); /* Resmin yolu */
-    background-size: cover; /* Tam sayfaya sığdırır */
-    background-position: center; /* Ortalar */
-    background-repeat: no-repeat; /* Tekrar etmez */
-    height: 100vh; /* Sayfanın tamamını kaplaması için */
+
+#anamenu {
+    background-image: url('technology.jpg');
+    /* Resmin yolu */
+    background-size: cover;
+    /* Tam sayfaya sığdırır */
+    background-position: center;
+    /* Ortalar */
+    background-repeat: no-repeat;
+    /* Tekrar etmez */
+    height: 100vh;
+    /* Sayfanın tamamını kaplaması için */
     margin: 0;
 }
-.layout
-{
+
+.layout {
     background-color: violet;
     color: rgb(70, 4, 251);
     font-weight: 600;
@@ -35,8 +40,8 @@
     text-align: center;
     border-radius: 50px;
 }
-#personal
-{
+
+#personal {
     display: inline;
     height: 50px;
     width: 50px;
@@ -44,27 +49,31 @@
     border-radius: 50%;
     margin: 10px;
     padding: 10px;
-    
+
 
 
 }
 
-#navbar
-{
-    
+#navbar {
+
     border-radius: 20px;
     font-size: 17px;
     display: flex;
-    justify-content: space-around; /* Etiketleri eşit aralıklarla hizalar */
-    align-items: center; /* Dikey hizalama */
-    background-color:azure; /* Menü arka plan rengi */
-    color: white; /* Yazı rengi */
+    justify-content: space-around;
+    /* Etiketleri eşit aralıklarla hizalar */
+    align-items: center;
+    /* Dikey hizalama */
+    background-color: azure;
+    /* Menü arka plan rengi */
+    color: white;
+    /* Yazı rengi */
     padding: 15px;
-    width: 100%; /* Sayfanın tamamını kaplar */
-    box-sizing: border-box;    
+    width: 100%;
+    /* Sayfanın tamamını kaplar */
+    box-sizing: border-box;
 }
-article
-{
+
+article {
     border-radius: 10px;
     font-style: normal;
     font-size: 30px;
@@ -78,45 +87,53 @@ article
     padding: 15px;
     border-radius: 50px;
     text-align: left;
-    
+
 }
 
-.personal_card
-{
+.personal_card {
     display: flex;
-    align-items: center; /* Dikey hizalama */
-    gap: 10px; /* Resim ile kart arasındaki boşluk */
+    align-items: center;
+    /* Dikey hizalama */
+    gap: 10px;
+    /* Resim ile kart arasındaki boşluk */
 }
 
-footer li
-{
+footer li {
     font-size: 30px;
+    list-style-type: georgian;
+
 }
-footer
-{
+
+footer {
     color: cornflowerblue;
     background-color: wheat;
     border-radius: 20px;
     font-size: 20px;
+
 }
-footer p
-{
+
+footer p {
     font-size: 40px;
     color: red;
 }
-.images .urunler div
-{
+
+.images .urunler div {
     font-size: 20px;
     font-weight: 700;
-    font-family:'Courier New', Courier, monospace;
+    font-family: 'Courier New', Courier, monospace;
 }
+
 .images {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* 2 sütunlu düzen */
-    gap: 20px; /* Resimler arasındaki boşluk */
-    max-width: 800px; /* İstenilen genişliği ayarlayabilirsin */
-    margin: auto; /* Ortalamak için */
-    
+    grid-template-columns: repeat(2, 1fr);
+    /* 2 sütunlu düzen */
+    gap: 20px;
+    /* Resimler arasındaki boşluk */
+    max-width: 800px;
+    /* İstenilen genişliği ayarlayabilirsin */
+    margin: auto;
+    /* Ortalamak için */
+
 }
 
 .urunler {
@@ -126,8 +143,96 @@ footer p
 .urunler img {
     border-style: dotted;
     width: 200px;
-    max-width: 300px; /* Çok büyük olmalarını önler */
+    max-width: 300px;
+    /* Çok büyük olmalarını önler */
     height: auto;
-    border-radius: 10px; /* Köşeleri yuvarlak yapmak istersen */
+    border-radius: 10px;
+    /* Köşeleri yuvarlak yapmak istersen */
 }
 
+.urunler .sepeteeklebutonu {
+
+    color: blue;
+
+}
+
+
+.iletisim h1 {
+
+    color: yellow;
+    background-color: blueviolet;
+    border-radius: 20px;
+    font-size: 30px;
+    text-align: center;
+    font-style: italic;
+    box-shadow: inset 10px 10px 5px black;
+
+
+}
+
+.iletisim .bilgiler label {
+    color: rgb(255, 255, 255);
+    display: flex;
+    padding: 5px
+}
+
+.iletisim .bilgiler {
+    border-color: brown;
+    border-style: dotted;
+    border-radius: 30px;
+    border-width: 5px;
+    text-align: left;
+    padding: 30px;
+    background-image: url(hulk.ico);
+    box-shadow: 10px 10px 60px rgb(35, 144, 178);
+
+}
+
+.bilgiler .mesaj {
+    height: 50px;
+    box-shadow: inset 5px 5px 10px rgb(27, 4, 231);
+
+}
+
+button {
+    margin-top: 10px;
+
+    box-shadow: 5px 5px 10px red;
+
+}
+
+.metin {
+    text-align: center;
+    text-indent: 10em;
+    line-height: 30px;
+    letter-spacing: 2px;
+    word-spacing: 30px;
+
+
+}
+
+.instagramlink:link {
+    color: rgb(37, 149, 180);
+    background-color: rgb(252, 0, 0);
+    border-radius: 5px;
+    font-size: 20px;
+    background-color: black;
+
+}
+
+.googlelink:hover {
+    color: yellowgreen;
+    background-color: black;
+
+
+}
+
+.linkedin:visited {
+    color: violet;
+    background-color: black;
+}
+
+.w3schools:active {
+    color: tomato;
+    background-color: black;
+}

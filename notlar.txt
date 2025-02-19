@@ -154,28 +154,42 @@ footer kısmında ise iletişim, kişi bilgileri vs küçük bilgiler olacak
 
 
 
+overflow:visible -- içerik taşarsa taşan kısım alttan gösterilir.
+overflow:hidden -- içerikte taşan kısım kullanıcıya gösterilmez
+overflow:scroll -- içerikte taşam kısım ziyaretçiye gösterilmez. bir kaydırma çubuğu ile 
+aşağı çekerek görüntülenmesi sağlanır
+overflow:auto -- taşma olursa kaydırma çubuğu  ortaya çıkar ve içerik scroll gibi gösterilir
+
+box-shadow:none -- gölge yok
+box-shadow:h-shadow -- yatay gölge oluşturur
+box-shadow:v-shadow -- dikey gölge oluşturur
+box-shadow:blur -- gölgenin kenarlarını yumuşatır
+box-shadow:spread -- gölgenin tüm yönlerde genişlemesini sağlar
+box-shadow:color -- gölge rengi
+box-shadow:inset -- gölgeyi nesnenin iç tarafına yapar
 
 
 
 
+text-indent:10em veya px; -- paragrafa  soldan girinti verir.ama ilk satırına.. yani paragraf başı yapmak istediğimizde kullanırız
+text-align: left; -- paragrafı sağa sola ortaya her iki tarafa yaslamayı sağlar
+line-height: 10px veya em; -- paragraftaki satırlar arasındaki mesafeyi ayarlar
+font-family: hangi yazı tipi kullanılacağı belirlenir.
+font-size: yazı tipi boyutu ayarlanır
+font-weight: yazı kalınlığını ayarlamak için kullanılır
+font-style: yazı türü(normal-italik)
+text-transform:(capitalize-lowercase-uppercase..):büyük-küçük harf yapmayı sağlar
+text-decoration:(underline-overline- line-through)metnin altı üstü ortası çizilir
+letter-spacing:10px -- kelimenin karakterleri arasındaki mesafeyi ayarlar
+word-spacing:5px -- kelimeler arasına mesafe koymak için kullanılır
 
+NOT: Linkerin altındaki çizgiyi kaldırmak için text-decoration:none yap
 
+list-style-type: -- listeleri biçimlendirmek için kullanılır
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+a:link -- ziyaret edilmemiş link olduğunda cssleri uygular
+a:visited -- ziyaret edilmiş link olduğunda  cssleri uygular
+a:hover -- fare link üzerinde olduğunda  cssleri uygular
+a:active -- fare tıkladığında o renge döner
 
 
