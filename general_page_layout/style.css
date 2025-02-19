@@ -2,6 +2,30 @@
 {
     font-size: 15px;
 }
+.karsilama
+{
+    font-size: 100px;
+    text-align: center;
+    color: chocolate;
+    border-style: dotted;
+    border-width: 5px;
+    border-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 750px; /* Sayfanın tamamını kaplaması için */
+    margin: 0;
+    
+}
+#anamenu
+{
+    background-image: url('technology.jpg'); /* Resmin yolu */
+    background-size: cover; /* Tam sayfaya sığdırır */
+    background-position: center; /* Ortalar */
+    background-repeat: no-repeat; /* Tekrar etmez */
+    height: 100vh; /* Sayfanın tamamını kaplaması için */
+    margin: 0;
+}
 .layout
 {
     background-color: violet;
@@ -80,12 +104,30 @@ footer p
     font-size: 40px;
     color: red;
 }
-.nature
+.images .urunler div
 {
-    background-image: url(nature.jpg); 
-    background-repeat: no-repeat; /* Tekrar etmesini engelle */
-    background-size: cover; /* Ekrana tam oturmasını sağla */
-    background-position: center; /* Ortada hizala */
-    
-
+    font-size: 20px;
+    font-weight: 700;
+    font-family:'Courier New', Courier, monospace;
 }
+.images {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 sütunlu düzen */
+    gap: 20px; /* Resimler arasındaki boşluk */
+    max-width: 800px; /* İstenilen genişliği ayarlayabilirsin */
+    margin: auto; /* Ortalamak için */
+    
+}
+
+.urunler {
+    text-align: center;
+}
+
+.urunler img {
+    border-style: dotted;
+    width: 200px;
+    max-width: 300px; /* Çok büyük olmalarını önler */
+    height: auto;
+    border-radius: 10px; /* Köşeleri yuvarlak yapmak istersen */
+}
+
