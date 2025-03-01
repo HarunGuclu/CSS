@@ -1,0 +1,358 @@
+body {
+
+
+
+    background-image: url("https://img.freepik.com/free-vector/matrix-style-binary-code-digital-falling-numbers-blue-background_1017-37387.jpg?t=st=1740673539~exp=1740677139~hmac=f501a67000dade81006cc6b1b7ce652749b53711018ea61c180caa019835cfd4&w=1380");
+    background-size: cover;
+    background-repeat: repeat-y;
+    background-position: center center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    backdrop-filter: blur(2px);
+    /* Burada 2px, bulanıklaştırma miktarını belirler */
+
+
+}
+
+
+header #kisisel_bilgiler {
+    display: flex;
+    
+    align-items: center;
+    color: aqua;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header p {
+    
+   white-space: nowrap;
+    font-size: 20px;
+    position: relative;
+    top: 35px;
+}
+
+header h1{
+    white-space: nowrap;
+    font-size: 30px;
+    
+    position: relative;
+    left: 10px;
+}
+
+header img {
+
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.navbar {
+    
+    border-color: aqua;
+    border-radius: 50px;
+    font-size: 17px;
+    display: flex;
+    justify-content: space-around;
+    /* Etiketleri eşit aralıklarla hizalar */
+    align-items: center;
+
+    padding: 15px;
+    margin-top: 10px;
+    width: 1400px;
+    /* Sayfanın tamamını kaplar */
+    box-sizing: border-box;
+
+}
+
+.navbar a {
+
+    color: rgb(1, 251, 251);
+    font-size: 55px;
+    text-decoration: none;
+
+}
+
+
+.navbar a:hover {
+
+    color: rgb(255, 0, 8);
+    box-shadow: 10px 10px 60px rgb(35, 144, 178);
+    border-radius: 40px;
+
+
+}
+
+
+
+article {
+
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    text-indent: 10px;
+
+}
+
+article #paragraf1 {
+    color: rgb(127, 255, 0);
+    font-size: 40px;
+    text-indent: 60px;
+
+}
+
+article #paragraf2 {
+    text-indent: 60px;
+    font-size: 35px;
+    color: rgb(215, 17, 162);
+
+}
+
+
+
+
+
+/* Hakkımda Bölümü */
+#hakkimda {
+    padding:  20px;
+    background-color: rgb(42, 159, 143);
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 50px;
+    text-align: center;
+   
+    margin: 5px auto;
+}
+
+/* Başlık Stili */
+#hakkimda h2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #0f0f0f;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    border-bottom: 3px solid chocolate;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+/* Paragraf Stili */
+#hakkimda p {
+    font-size: 18px;
+    color: #0f0f0f;
+    line-height: 1.8;
+    margin-top: 5px;
+}
+
+/* İsmin Vurgulanması */
+#hakkimda span {
+    font-weight: bold;
+    color: rgb(77, 43, 18);
+    font-size: 20px;
+}
+
+/* Bilgi Kutuları */
+.bilgiler {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+
+/* Her Bir Bilgi Kutusu */
+.kutu {
+    background: linear-gradient(145deg, #30818a, #dcdcdc);
+    padding: 20px;
+    border-radius: 10px;
+    width: 280px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    transition: 0.3s ease-in-out;
+}
+
+/* Hover Etkisi */
+.kutu:hover {
+    transform: translateY(-5px);
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Bilgi Kutusu Başlıkları */
+.kutu h3 {
+    color: chocolate;
+    font-size: 22px;
+    border-bottom: 2px solid chocolate;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+footer
+{
+    font-size: 70px;
+    text-align: center;
+    font-style: italic;
+    color: chocolate;
+
+    border-radius:40px;
+    display:inline;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 0px;
+    left: 150px;
+}
+footer:hover
+{
+    
+    box-shadow: 10px 10px 60px rgb(47, 144, 183);
+    
+}
+
+
+
+#github{
+    
+
+    color: cornflowerblue;
+    text-align: center;
+    
+    font-size: 40px;
+}
+#github a:hover
+{
+    text-decoration: none;
+    border-radius: 40px;
+    box-shadow: 10px 10px 60px rgb(179, 29, 29);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Genel Ayarlar */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+/* İletişim Bölümü */
+#iletisim {
+    text-align: center;
+    padding: 50px 20px;
+    background: linear-gradient(135deg, #377991, #f3f3f3);
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    max-width: 800px;
+    margin: 50px auto;
+}
+
+/* Başlık */
+#iletisim h2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    border-bottom: 3px solid chocolate;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+/* Açıklama Metni */
+#iletisim p {
+    font-size: 18px;
+    color: #171414;
+    margin-top: 15px;
+}
+
+/* Sosyal Medya Linkleri */
+.social-links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+/* Her Bir Link */
+.social {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 20px;
+    padding: 12px 25px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* İkon Stili */
+.social i {
+    font-size: 24px;
+}
+
+/* Linklerin Varsayılan Renkleri */
+.instagram { background: #E1306C; color: white; }
+.linkedin  { background: #0077B5; color: white; }
+.twitter   { background: #1DA1F2; color: white; }
+.mail      { background: #ff9800; color: white; }
+
+/* Hover Efektleri */
+.social:hover {
+    transform: scale(1.1);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.instagram:hover { background: #C13584; }
+.linkedin:hover  { background: #005582; }
+.twitter:hover   { background: #0d8deb; }
+.mail:hover      { background: #ff7300; }
+
+/* Mobil Uyum */
+@media (max-width: 768px) {
+    .social-links {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
