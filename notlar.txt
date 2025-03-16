@@ -37,14 +37,14 @@ css kodlarına class ismi verip uygulayabiliriz
 
 */
 
-6- css kodları html tagının içerisinde,
-sayfanın head bölümünde(style özelliğini kullanarak),
-bir harici dosyaya yazılabilir.
+6- css kodları html taglarının içerisinde(inline css),
+sayfanın head bölümünde(style özelliğini kullanarak)(internal css),
+veya bir harici dosyaya yazılıp html sayfasına çağrılarak(external css)yazılabilir.
 
 7-selected ifadesi başlangıçta seçili olarak default gelmesini sağlar
 disabled ise seçilemeyeceğini gösterir. o seçenek artık tıklanamaz, seçilemez
 
-8- <link rel="stylesheet" href="style.css" /> harici dosyayı dahil eder
+8- <link rel="stylesheet" href="style.css"/> harici css dosyasını dahil eder
 
 9-satırda,head tagı içinde ve harici dosya içinde olan cssler
 öncelik olarak satırdaki cssler uygulanır, o yoksa head tagı içinde , 
@@ -131,7 +131,7 @@ davranmasını isteyebiliriz. display kelimesini kullanarak ayarlanabilir
 örneğin
 table
 {
-    display:inline //inline gibi davranır
+    display:inline //inline gibi davranır yani sadece metin uzunluğu kadar yer kaplar
 }
 li
 {
@@ -140,10 +140,10 @@ li
 }
 a
 {
-    display:block //block gibi davranır
+    display:block //block gibi davranır yani bulundukları satırın tümünü kaplarlar
 }
 
-tr:table row-satır   td: satırdaki kolon   th:başlık kolonu(kolon ismi de denileilir)
+tr:table row-satır   td: satırdaki kolon th:başlık kolonu(kolon ismi de denileilir)
 
 --GENEL SAYFA DÜZENİ--
 header kısmına logo ve reklam gelecek
@@ -193,3 +193,48 @@ a:hover -- fare link üzerinde olduğunda  cssleri uygular
 a:active -- fare tıkladığında o renge döner
 
 
+
+box-sizing:border-box; Özelliği
+Bir elemana box-sizing:border-box; tanımladığınızda padding ve border değerleri width - height değerini değiştirmeyecektir.
+
+box-sizing:content-box; Özelliği
+Bir elemana box-sizing:content-box; tanımladığınızda padding ve border değerleri width - height değerini etkileyecektir.
+
+
+
+min-height: 100vh;  -- 100vh kullanarak oluşturulan element, mobil cihazlarda tarayıcı araç çubukları nedeniyle ekranın tamamını kaplamaz ve sayfanın scroll edilmesine neden olurken, 100dvh kullanarak oluşturulan  element ekranın tamamını kaplar ve sayfanın scroll edilmesine neden olmaz.
+
+
+
+position: relative; verilirse sağ sol üst veya alttan konum verilebilir. relative verilmeyip sağ sol vs konum verilirse çalışmaz. ve bulunduğu kutunun içinde konumlandırma yapar.
+
+position: absolute; verilirse kutu yokmuş gibi davranır. üst üste binebilir ikisi aynı satırda  bulunabilir.
+
+position:sticky; verilirse taşma olmuyorsa normal kullanımına devam et, oluyorsa
+bir yere sabitle. tanımlandığı yerde eğer ekrandan gidilmiyorsa relative gibi davranır ekran aşağı veya yukarı gidiliyorsa fixed gibi davranır.
+
+position:fixed; verilirse olduğu yere ekrana sabitlenir.aşağı kaydırma olduğunda dahi yeri değişmez.  
+
+
+z-index; eğer üst üste binme varsa bir sıralama verilebilir. position: relative;  tanımlanması şarttır ama. mesela çakışan iki kutudan birine z-index:2 diğerine 1 verilirse büyük olan değer üste çıkar
+
+max-width: kullanımı
+Herhangi bir <div> elementine width özelliği verdiğinizde bu elementin genişliği her zaman verdiğiniz değer kadar olur.
+Tarayıcı penceresi daraltıldığında div aynı genişlikte kalır ve tarayıcı penceresinde kaydırma çubuğu belirir.
+width yerine max-width kullanmak bu sorunu çözecektir. max-width ile div elementi en fazla ne kadar genişliğe sahip olacak bunu belirtiriz.
+width özelliğinde genişlik sabitken, max-width ile daha dinamik hale gelir. max-width'e verdiğiniz değer elementin en fazla alacağı genişliği belirler.
+
+display:block; var olduğu yerde tüm satırı kaplar(li ul p div)
+display:inline; sadece içerisindeki metin kadar yer kaplarlar.(span a)
+display:none; etiket gözükmez. hiç yokmuş gibi. 
+
+display:flex özelliğindeki esnek bir kutu içerisinde öğeler ana eksen(yatay)doğrultusunda kutuya sığmak için boyutları büyür ya da küçülür.
+flex bir kutunun içerisindeki öğelerin diziliş yönününe belirlemek için flex-direction özelliği kullanılmaktadır. inline-flex: de flexi inline kullanmamaızı sağlar. default olarak block gelir flex…  
+align-items gibi bazı hizalama özellikleri çapraz-eksene göre hizalama yaparken justify-content gibi bazı hizalama özellikleri de ana-eksene göre hizalama yapmaktadır.
+
+flex-direction:column;(konteyner yönü) yan yana sıralananlar dikey olarak sıralanır artık.
+reverse özelliği ise ters çevirme yapar.
+
+flex-wrap:wrap -- flex boyutunda taşma olursa alt satıra geçer.
+justify-content:; yatay eksende içteki elemanları hizalamayı sağlar.
+align-items:; dikey eksende içteki elemanları hizalar
